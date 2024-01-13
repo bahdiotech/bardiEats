@@ -1,8 +1,7 @@
-import React from 'react'
-import { categories } from '../data/data';
+import React from "react";
+import { categories } from "../data/data";
 
 const Categories = () => {
-    console.log(categories)
   return (
     <div className='max-w-[1520] m-auto px-4 py-12'>
         <h1 className=' text-orange-500 text-2xl py-2 font-bold text-center'>
