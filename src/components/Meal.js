@@ -1,6 +1,6 @@
-import React,{useState} from 'react';
-import { mealData } from '../data/data';
-import {ArrowSmRightIcon} from '@heroicons/react/outline';
+import React, { useState } from "react";
+import { ArrowSmRightIcon } from "@heroicons/react/outline";
+import { mealData } from "../data/data";
 
 const Meal = () => {
     const [foods, setFoods] = useState(mealData);
@@ -19,22 +19,22 @@ const Meal = () => {
             <div className='flex justify-center md:justify-center mb-5'>
                 <button
                 onClick={()=> setFoods(mealData)}
-                 className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
+                      className='m-1 border-orange-700 text-white bg-orange-700 sMobile:px-3 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
                     All
                 </button>
                 <button
                 onClick={()=> filterCategory('pizza')}
-                 className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
+                      className='m-1 border-orange-700 text-white bg-orange-700 sMobile:px-3 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
                     Pizza
                 </button>
                 <button
                 onClick={()=> filterCategory('chicken')}
-                 className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
+                      className='m-1 border-orange-700 text-white bg-orange-700 sMobile:px-3 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
                     Chicken
                 </button>
                 <button
                 onClick={()=> filterCategory('salad')}
-                 className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
+                      className='m-1 border-orange-700 text-white bg-orange-700 sMobile:px-3 hover:bg-white hover:text-orange-700 hover:border-orange-700'>
                     Salad
                 </button>
             </div>

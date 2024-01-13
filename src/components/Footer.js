@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   FaWhatsappSquare,
   FaFacebookSquare,
@@ -10,8 +11,8 @@ import {
 const Footer = () => {
   return (
     <div className="max-w-[1520px] m-auto px-4 py-2 bg-[#24262b]">
-      <div className="py-16 px-4 grid grid-flow-col lg:grid-cols-5  gap-8 text-gray-300">
-        <div className="lg:col-span-2">
+      <div className="py-16 px-4 flex mdMobile:basis-full mdMobile:flex-col lg:flex-row  text-gray-300">
+        <div className="">
           <h1 className="w-full grid mb-3 text-3xl font-bold text-orange-500">
             BardiEats
           </h1>
@@ -39,44 +40,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        <div className="lg:col-span-0  justify-between mt-6">
-          <h6 className="font-medium text-[#9b9b9b]">Location</h6>
-          <ul>
-            <li className="py-2 text-sm">New York</li>
-            <li className="py-2 text-sm">USA</li>
-            <li className="py-2 text-sm">India</li>
-            <li className="py-2 text-sm">Canada</li>
-          </ul>
-        </div>
-        <div className="lg:col-span-0 justify-between mt-6">
-          <h6 className="font-medium text-[#9b9b9b]">Location</h6>
-          <ul>
-            <li className="py-2 text-sm">New York</li>
-            <li className="py-2 text-sm">USA</li>
-            <li className="py-2 text-sm">India</li>
-            <li className="py-2 text-sm">Canada</li>
-          </ul>
-        </div>
-        <div className="lg:col-span-0 justify-between mt-6">
-          <h6 className="font-medium text-[#9b9b9b]">Location</h6>
-          <ul>
-            <li className="py-2 text-sm">New York</li>
-            <li className="py-2 text-sm">USA</li>
-            <li className="py-2 text-sm">India</li>
-            <li className="py-2 text-sm">Canada</li>
-          </ul>
-        </div>
-        <div className="lg:col-span-0 justify-between mt-6">
-          <h6 className="font-medium text-[#9b9b9b]">Location</h6>
-          <ul>
-            <li className="py-2 text-sm">New York</li>
-            <li className="py-2 text-sm">USA</li>
-            <li className="py-2 text-sm">India</li>
-            <li className="py-2 text-sm">Canada</li>
-          </ul>
-        </div>
+        
       </div>
+      <span className="flex text-sm justify-center text-white items-center">©Barditech™ 2023 </span>
     </div>
   );
 };

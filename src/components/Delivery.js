@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Delivery = () => {
   return (
     <div className='w-full bg-white py-16 px-4'>
       <h3 className='text-orange-500 font-bold text-2xl text-center'>Quick Delivery App</h3>
-      <div className='w-[1240px] mx-auto grid md:grid-cols-2' >
+      <div className=' mx-auto grid md:grid-cols-2' >
         <img className='w-[550px] mx-auto my-4 mt-[4rem]'  src="https://res.cloudinary.com/dodm9xkaz/image/upload/v1696905961/YumEats/pcjahhqbfot6d2zfz9y2.jpg" alt="" />
         <div className='flex flex-col justify-center'>
             <p className='text-[#00df9a] font-bold mt-[5rem]'>Get The App</p>
             <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Limitless Convenience on-demand</h1>
-            <p>
+            <p className='basis-full'>
             There are many variations of passages of Lorem Ipsum available, but the majority have 
             suffered alteration in some form, by injected humour, or randomised words which don't 
             look even slightly believable. If you are going to use a passage of Lorem Ipsum, you 
